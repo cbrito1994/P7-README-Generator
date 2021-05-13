@@ -1,6 +1,8 @@
-# TEST
+# FEA
+![license](https://img.shields.io/static/v1?label=license&message=ApacheLicense2.0&color=brightgreen)
+
 ## Description
-test
+ea
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,23 +13,25 @@ test
 - [Questions](#questions)
 
 ## Installation
-test
+ea
 
 ## Usage
-test
+ew
 
 ## How to Contribute
-test
+ew
 
 ## Tests
-test
+ewe
 
 ## License
-Mozilla Public License 2.0
+Apache License 2.0
+
+Link to the license info: https://choosealicense.com/licenses/apache-2.0/
 
 ## Questions
-Github profile: test
+Github profile: ew
 
-Email address: test
+Email address: ew
 
-Instructions to reach me by email: test
+Instructions to reach me by email: ew

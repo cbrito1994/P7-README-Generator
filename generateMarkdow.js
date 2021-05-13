@@ -43,7 +43,7 @@ function renderLicenseSection (license) {}
 const generateMarkdown = (data) => {
 
     return `# ${data.title.toUpperCase()}
-${renderLicenseBadge(data.license)}
+![license](${renderLicenseBadge(data.license)})
 
 ## Description
 ${data.description}
