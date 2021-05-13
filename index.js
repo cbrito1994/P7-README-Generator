@@ -66,12 +66,12 @@ const questions = [
 // }
 
 // TODO: Create a function to initialize app
-// function init() {
-//     inquirer.prompt(questions).then(data => {
-//         const fileName = `${data.title}.md`;
-//         writeToFile(fileName, data);
-//     })
-// }
+const init = () => {
+    inquirer.prompt(questions).then(data => {
+        const fileName = `${data.title}.md`;
+        writeToFile(fileName, data);
+    })
+}
 
 // Function call to initialize app
 init();
