@@ -59,7 +59,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
     const mdFileContent = mdFile.generateMarkdown(data);
     fs.writeFile(fileName, mdFileContent, err => 
         err ? console.log(err) : console.log("Successfully created README file!")
@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 const init = () => {
     inquirer.prompt(questions).then(data => {
-        const fileName = `${data.title}.md`;
+        const fileName = 'README.md';
         writeToFile(fileName, data);
     })
 }
