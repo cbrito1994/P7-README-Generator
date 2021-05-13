@@ -37,9 +37,9 @@ const questions = [
     },
     {
         type: 'checkbox',
-        message: 'Add a license',
+        message: 'Add a license, just select one',
         name: 'license',
-        choices: ['MIT License', 'GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['MIT License', 'GNU AGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'Boost Software License 1.0', 'The Unlicense'],
     },
     {
         type: 'input',
